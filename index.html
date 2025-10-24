@@ -9,34 +9,4 @@
     <link rel="manifest" href="/manifest.json">
   </head>
   <body>
-    <h1>Temperature converter</h1>
-
-    <!-- UI (we'll replace <h1> with the form below) -->
-    <form id="converter">
-      <label for="input-temp">temperature</label>
-      <input type="text" id="input-temp" name="input-temp" value="20" />
-      <label for="input-unit">from</label>
-      <select id="input-unit" name="input-unit">
-        <option value="c" selected>Celsius</option>
-        <option value="f">Fahrenheit</option>
-        <option value="k">Kelvin</option>
-      </select>
-      <label for="output-unit">to</label>
-      <select id="output-unit" name="output-unit">
-        <option value="c">Celsius</option>
-        <option value="f" selected>Fahrenheit</option>
-        <option value="k">Kelvin</option>
-      </select>
-      <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">
-        68 F
-      </output>
-    </form>
-
-    <script src="converter.js"></script>
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' });
-      }
-    </script>
-  </body>
-</html>
+    <h1>Temperature converter</h1>G
